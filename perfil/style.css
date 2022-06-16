@@ -1,0 +1,46 @@
+main {
+  min-width: 280px;
+  max-width: 1920px;
+}
+.ImgRedonda {
+  border-radius: 50%;
+}
+.font2 {
+  font-family: "Josefin Slab", serif !important;
+}
+body {
+  background-image: url(img/background.png);
+  font-size: 20px;
+  text-align: center;
+  background-size: auto;
+  align-items: center;
+  position: relative;
+  margin: auto;
+}
+.fotinhas {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cor_fonte {
+  font-weight: 900;
+  color: #696969;
+}
+.grid-container2 {
+  display: grid;
+  width: 50vw;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-gap: 25px;
+}
+.grid-item {
+  text-align: center;
+  font-weight: 500;
+}

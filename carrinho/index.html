@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js"></script>
+    <link rel="shortcut icon" href="imagecar/iconcar.png">
+    <title>Produtos da Loja</title>
+</head>
+<body>
+    <div class="page-nav">
+        <h1>Lojão do Sucesso</h1>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../cadastro/index.html">Cadastre-se</a></li>
+            <li><a href="../login/index.html">Entrar</a></li>
+        </ul>
+        <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button><br><br>
+    </div>
+    <div class="page-content">
+        <div class="produto-container">
+            <h3>Mochila Adidas</h3>
+            <img src="imagecar/prod1.jpg" />
+            <h1>R$240</h1>
+            <button class="button-add" onclick="add('produto-1', 240)">Adicionar</button>
+        </div>
+
+        <div class="produto-container">
+            <h3>Tênis Adidas</h3>
+            <img src="imagecar/prod2.jpg" />
+            <h1>R$350</h1>
+            <button class="button-add" onclick="add('produto-2', 350)">Adicionar</button>
+        </div>
+
+        <div class="produto-container">
+            <h3>Relógio</h3>
+            <img src="imagecar/prod3.jpg" />
+            <h1>R$4500</h1>
+            <button class="button-add" onclick="add('produto-3', 4500)">Adicionar</button>
+        </div>
+
+        <div class="produto-container">
+            <h3>Boné</h3>
+            <img src="imagecar/prod4.jpg" />
+            <h1>R$50</h1>
+            <button class="button-add" onclick="add('produto-4', 50)">Adicionar</button>
+        </div>
+
+        <div class="produto-container">
+            <h3>Camisa Lacoste</h3>
+            <img src="imagecar/prod5.jpg" />
+            <h1>R$80</h1>
+            <button class="button-add" onclick="add('produto-5', 80)">Adicionar</button>
+        </div>
+
+        <div class="produto-container">
+            <h3>Calça Moletom</h3>
+            <img src="imagecar/prod6.jpg" />
+            <h1>R$120</h1>
+            <button class="button-add" onclick="add('produto-6', 120)">Adicionar</button>
+        </div>
+
+        <div class="produto-container">
+            <h3>Iphone 13</h3>
+            <img src="imagecar/prod7.jpg" />
+            <h1>R$6000</h1>
+            <button class="button-add" onclick="add('produto-7', 6000)">Adicionar</button>
+        </div>
+
+        <div class="produto-container">
+            <h3>PC Gamer</h3>
+            <img src="imagecar/prod8.jpg" />
+            <h1>R$7500</h1>
+            <button class="button-add" onclick="add('produto-8', 7500)">Adicionar</button>
+        </div>
+
+        <div class="produto-container">
+            <h3>Corrente de Prata</h3>
+            <img src="imagecar/prod9.jpg" />
+            <h1>R$150</h1>
+            <button class="button-add" onclick="add('produto-9', 150)">Adicionar</button>
+        </div>
+
+        <div class="produto-container">
+            <h3>Kit de meias</h3>
+            <img src="imagecar/prod10.jpg" />
+            <h1>R$20</h1>
+            <button class="button-add" onclick="add('produto-10', 20)">Adicionar</button>
+        </div>
+
+        <div class="produto-container">
+            <h3>SSD XPG, 1TERA, NVME</h3>
+            <img src="imagecar/prod11.jfif" />
+            <h1>R$750</h1>
+            <button class="button-add" onclick="add('produto-11', 750)">Adicionar</button>
+        </div>
+        <div class="produto-container">
+            <h3>Fone Lamia 2, Edição Limitada</h3>
+            <img src="imagecar/prod12.jpg" />
+            <h1>R$360</h1>
+            <button class="button-add" onclick="add('produto-12', 360)">Adicionar</button>
+        </div>
+        <div class="produto-container">
+            <h3>Mouse RGB</h3>
+            <img src="imagecar/prod13.jpg" />
+            <h1>R$140</h1>
+            <button class="button-add" onclick="add('produto-13', 140)">Adicionar</button>
+        </div>
+        <div class="produto-container">
+            <h3>Teclado Kala K557 RGB</h3>
+            <img src="imagecar/prod14.jpg" />
+            <h1>R$300</h1>
+            <button class="button-add" onclick="add('produto-14', 300)">Adicionar</button>
+        </div>
+        <div class="produto-container">
+            <h3>Coletânia Harry Potter</h3>
+            <img src="imagecar/prod15.jfif" />
+            <h1>R$250</h1>
+            <button class="button-add" onclick="add('produto-15', 250)">Adicionar</button>
+        </div>
+        <div class="produto-container">
+            <h3>Notebook Gamer</h3>
+            <img src="imagecar/prod16.jpg" />
+            <h1>R$4500</h1>
+            <button class="button-add" onclick="add('produto-16', 4500)">Adicionar</button>
+        </div>
+        <div class="produto-container">
+            <h3>Conjunto de Panelas Inox</h3>
+            <img src="imagecar/prod17.jfif" />
+            <h1>R$320</h1>
+            <button class="button-add" onclick="add('produto-17', 320)">Adicionar</button>
+        </div>
+        <div class="produto-container">
+            <h3>TV LG 50'' Polegadas</h3>
+            <img src="imagecar/prod18.jpg" />
+            <h1>R$2350</h1>
+            <button class="button-add" onclick="add('produto-18', 2350)">Adicionar</button>
+        </div>
+        <div class="produto-container">
+            <h1>Novos Produtos</h1>
+            <img src="imagecar/prod19.jpg" />
+        </div>
+    </div>
+</body>

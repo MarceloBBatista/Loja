@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    background-color: white;
+    font-family: 'sans-serif', cursive;
+    font-size: 15px;
+}
+
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.page-nav {
+    background-color: black;
+    border: 1px solid white;
+    position: relative;
+    color: white;
+}
+
+.page-nav h1 {
+    margin: 20px;
+}
+
+.page-nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    border: 2.5px solid white;
+    transition-duration: 0.4s;
+    position: inherit;
+    right: 15px;
+    bottom: 15px;
+}
+  
+.page-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.page-nav ul li:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button-checkout {
+    background-color: black;
+    color: white;
+    border: 2px solid white; 
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.button-checkout:hover {
+    background-color: #008CBA; /* Blue */
+    color: white;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.produto-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.produto-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.produto-container img {
+    width: 250px;
+}
+
+.produto-container h1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.button-add {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+  
+.button-add:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
